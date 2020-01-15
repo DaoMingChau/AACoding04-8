@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -62,7 +61,7 @@ function onChange(evt) {
     $(this)
       .removeClass("correct")
       .addClass("incorrect");
-    if (Math.random() > 0.9) {
+    if (Math.random() < 0.7) {
       sad.play();
     }
   }
